@@ -27,7 +27,7 @@ class BerandaPage extends StatelessWidget {
   @override 
   Widget build(BuildContext context) { 
     return Scaffold( 
-      appBar: AppBar(title: const Text('714240061_Zidan Hairra Ramadhan')), 
+      appBar: AppBar(title: const Text('NPM:714240061''Nama: Zidan Hairra Ramadhan''Kelas:3C')), 
       body: Center( 
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center, 
