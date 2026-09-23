@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart'; 
   
 void main() { 
-  runApp(const SiLogApp()); 
+  runApp(const MyApp()); 
 } 
   
-class SiLogApp extends StatelessWidget { 
-  const SiLogApp({super.key}); 
+class MyApp extends StatelessWidget { 
+  const MyApp({super.key}); 
   
   @override 
   Widget build(BuildContext context) { 
@@ -13,7 +13,7 @@ class SiLogApp extends StatelessWidget {
       title: 'SiLog', 
       debugShowCheckedModeBanner: false, 
       theme: ThemeData( 
-        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 181, 63, 157)), 
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color.fromARGB(255, 122, 48, 107)), 
         useMaterial3: true, 
       ), 
       home: const BerandaPage(), 
@@ -27,7 +27,7 @@ class BerandaPage extends StatelessWidget {
   @override 
   Widget build(BuildContext context) { 
     return Scaffold( 
-      appBar: AppBar(title: const Text('714240061_Zidan Hairra Ramadhan')), 
+      appBar: AppBar(title: const Text('NPM:714240061''Nama: Zidan Hairra Ramadhan''Kelas:3C')), 
       body: Center( 
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center, 
